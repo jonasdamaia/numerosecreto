@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Número Secreto</title>
+</head>
+<body onload="iniciar()">
+    <div class="container">
+        <p class="titulo">NÚMERO SECRETO</p>
+        <p class="subtitulo">Entre 1 e 100</p>
+        <p class="subtitulo2" id="dica"></p>
+        <input type="text" class="inputBox" id="numeroChutado" onchange="compararNumeros()">
+        <p class="texto">Tentativas: <span id="tentativas"></span></p>
+        <p class="texto">Números chutados: <span id="numChutados"></span></p>
+        <button class="botao" onclick="reiniciar()">REINICIAR</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
