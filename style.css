@@ -1,0 +1,48 @@
+.container{
+    border-style: solid;
+    border-color: green;
+    width: 250px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+.subtitulo{
+    text-align: center;
+    color: green;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.subtitulo2{
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.inputBox{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.texto{
+    margin-left: 10px;
+    color: green;
+}
+
+.botao{
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
